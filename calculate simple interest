@@ -1,0 +1,8 @@
+// Your First C Program
+#include <stdio.h>
+int main() {
+int p,t,r;
+scanf("%d%d%d \n",&p,&t,&r);
+printf("%d",(p*t*r)/100);
+  return 0;
+}
